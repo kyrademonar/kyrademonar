@@ -1,10 +1,24 @@
 body {
 	background-color: white;
 }
-.columns {
-	width:  400px;
+.columns-gallery img {
+	width:  300px;
+	height: 200px;
 	display: inline-box;
+	vertical-align: top;
 }
+
+.paragraph {
+	margin-right: 25px;
+}
+.columns-footer {
+	display: inline-box;
+	width: 400px;
+	vertical-align: top;
+	margin-top: 100px;
+	margin-right: 50px;
+}
+
 img {
 	width: 1250px;
 }
@@ -20,11 +34,9 @@ img {
 }
 .box-left {
 	background-color: rgba(232, 236, 241, 0.7);
-	position: relative;
-    display: inline-block;
-	right: 400px;
-	top: 400px; 
-	padding: 320px;
+    display: inline-block; 
+	padding: 250.8px;
+	margin-right: 622px;
     }
 .box-left .text{
     position: absolute;
@@ -47,6 +59,9 @@ title {
 	margin-top: 0;
 	margin-bottom: 0;
 	text-align: center;
+}
+nav {
+	background-color:
 }
 nav ul {
   list-style-type: none;
@@ -82,7 +97,7 @@ nav li a:hover {
 
  /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
+  width: 110%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
@@ -91,7 +106,7 @@ input[type=text], select, textarea {
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
   display: block;
-  
+ 
 }
 
 /* Style the submit button with a specific background color etc */
@@ -102,17 +117,53 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+ 
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #45a049;
+ 
 }
-
-
+.about-intro{
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+	background-color: var(--nav-album-bg);
+}
+.text-position {
+	text-align: center;
+}
+.container-sm {
+	max-width: 51.25rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	width: 100%;
+	text-align: left;
+}
+h1 {
+  color: ;
+  
+}
+.in-line {
+	display: inline-box;
+	width: 100px;
+}
 .container-contact {
   border-radius: 5px;
   background-color: white;
   padding: 20px;
+  width: 400px;
+  display: inline-block;
+  margin-bottom: 50px;
   
 } 
+
+footer {
+  background-color: #3d3c3c;
+  color: white;
+  padding: 11px;
+  text-align: right;
+   
+}
