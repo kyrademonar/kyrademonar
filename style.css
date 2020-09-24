@@ -1,3 +1,4 @@
+
 body {
 	background-color: white;
 }
@@ -19,7 +20,11 @@ body {
 	margin-right: 50px;
 }
 
-
+.fonter {
+	font-size: 50px;
+	line-height: 62px;
+	font-family: 'Norican', cursive;
+}
 img {
 	width: 1250px;
 }
@@ -70,7 +75,7 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: white;
-  margin-left: 450px;
+  margin-left: 370px;
   
 }
 box {
@@ -82,6 +87,8 @@ box {
 
 nav li {
   float: left;
+  font-size: 30px;
+
 }
 
 nav li a {
